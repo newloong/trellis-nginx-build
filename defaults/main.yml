@@ -35,7 +35,7 @@ nginx_modules:
   http_echo_module: "--add-module={{ nginx_build_tmp_dir }}/echo-nginx-module-{{nginx_echo_version}}"
   http_real_ip_module: "--with-http_realip_module"
   naxsi_module: "--add-module={{ nginx_build_tmp_dir }}/naxsi-{{nginx_naxsi_version}}/naxsi_src"
-  ngx_pagespeed: "--add-module={{ nginx_build_tmp_dir }}/ngx_pagespeed-{{nginx_ngx_pagespeed_version}}"
+  ngx_pagespeed: "--add-module={{ nginx_build_tmp_dir }}/incubator-pagespeed-ngx-{{nginx_ngx_pagespeed_version}}"
   http_geoip_module: "--with-http_geoip_module"
 
 nginx_modules_excluded:

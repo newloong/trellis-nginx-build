@@ -21,7 +21,7 @@
     wget ${psol_url}
     tar -xzvf $(basename ${psol_url})
   args:
-    chdir: "{{ nginx_build_tmp_dir }}/ngx_pagespeed-{{ nginx_ngx_pagespeed_version }}"
+    chdir: "{{ nginx_build_tmp_dir }}/incubator-pagespeed-ngx-{{ nginx_ngx_pagespeed_version }}"
   register: output
 
 - name: Display all variables
@@ -37,7 +37,7 @@
 #
 #- name: unpack pagespeed library
 #  unarchive: copy=no
-#            dest={{ nginx_build_tmp_dir }}/ngx_pagespeed-{{ nginx_pagespeed_version }}-stable/
+#            dest={{ nginx_build_tmp_dir }}/incubator-pagespeed-ngx-{{ nginx_pagespeed_version }}-stable/
 #            src={{ nginx_psol_dl.dest }}
 #  when: nginx_psol_dl.changed
 #  register: nginx_psol_unpack
