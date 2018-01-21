@@ -13,7 +13,7 @@ nginx_pid: "/var/run/nginx.pid"
 nginx_bin: "/usr/sbin/nginx"
 
 # Latest source breaks, so we're stuck here at the moment
-nginx_source_version: "1.13.0"
+nginx_source_version: "1.13.4"
 # source
 nginx_source_url: "http://nginx.org/download/nginx-{{nginx_source_version}}.tar.gz"
 nginx_source_prefix: "/usr/local/nginx/nginx-{{nginx_source_version}}"
@@ -70,7 +70,7 @@ nginx_upload_progress_zone_size: "1m"
 nginx_upload_progress_url: "https://github.com/masterzen/nginx-upload-progress-module/archive/v{{nginx_upload_progress_version}}.tar.gz"
 
 # headers_more_module
-nginx_headers_more_version: 0.32
+nginx_headers_more_version: 0.33
 nginx_headers_more_url: "https://github.com/openresty/headers-more-nginx-module/archive/v{{nginx_headers_more_version}}.tar.gz"
 
 # http_echo_module
@@ -87,9 +87,9 @@ nginx_naxsi_version: 0.55.3
 nginx_naxsi_url: "https://github.com/nbs-system/naxsi/archive/{{nginx_naxsi_version}}.tar.gz"
 
 # ngx_pagespeed_module
-nginx_ngx_pagespeed_version: 1.12.34.2-stable
+nginx_ngx_pagespeed_version: 1.12.34.3-stable
 nginx_ngx_pagespeed_source: "https://github.com/pagespeed/ngx_pagespeed/archive/v{{nginx_ngx_pagespeed_version}}.zip"
 nginx_ngx_pagespeed_psol_source: "https://dl.google.com/dl/page-speed/psol/{{nginx_ngx_pagespeed_version}}/stable/.tar.gz"
 
 # OpenSSL
-openssl_version: "1.1.0f"
+openssl_version: "1.1.0g"
