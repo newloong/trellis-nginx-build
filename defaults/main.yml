@@ -92,4 +92,4 @@ nginx_ngx_pagespeed_source: "https://github.com/pagespeed/ngx_pagespeed/archive/
 nginx_ngx_pagespeed_psol_source: "https://dl.google.com/dl/page-speed/psol/{{nginx_ngx_pagespeed_version}}/stable/.tar.gz"
 
 # OpenSSL
-openssl_version: "1.1.0g"
+openssl_version: "1.1.0h"
