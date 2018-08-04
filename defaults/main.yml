@@ -87,7 +87,7 @@ nginx_naxsi_version: 0.55.3
 nginx_naxsi_url: "https://github.com/nbs-system/naxsi/archive/{{nginx_naxsi_version}}.tar.gz"
 
 # ngx_pagespeed_module
-nginx_ngx_pagespeed_version: 1.12.34.3-stable
+nginx_ngx_pagespeed_version: 1.13.35.2-stable
 nginx_ngx_pagespeed_source: "https://github.com/pagespeed/ngx_pagespeed/archive/v{{nginx_ngx_pagespeed_version}}.zip"
 nginx_ngx_pagespeed_psol_source: "https://dl.google.com/dl/page-speed/psol/{{nginx_ngx_pagespeed_version}}/stable/.tar.gz"
 
