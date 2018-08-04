@@ -1,7 +1,7 @@
 ---
 
 # Put everything in one folder for cleanup
-nginx_build_tmp_dir : "/tmp/nginx-build"
+nginx_build_tmp_dir: "/tmp/nginx-build"
 
 # system
 nginx_user: www-data
