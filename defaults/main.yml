@@ -13,7 +13,7 @@ nginx_pid: "/var/run/nginx.pid"
 nginx_bin: "/usr/sbin/nginx"
 
 # Latest source breaks, so we're stuck here at the moment
-nginx_source_version: "1.13.4"
+nginx_source_version: "1.14.0"
 # source
 nginx_source_url: "http://nginx.org/download/nginx-{{nginx_source_version}}.tar.gz"
 nginx_source_prefix: "/usr/local/nginx/nginx-{{nginx_source_version}}"
