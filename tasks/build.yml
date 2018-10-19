@@ -10,6 +10,7 @@
     - libpcre3
     - libpcre3-dev
     - unzip
+    - uuid-dev
 
 - name: Nginx - Download Nginx source
   get_url:
