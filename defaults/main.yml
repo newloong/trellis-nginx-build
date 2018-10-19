@@ -13,7 +13,7 @@ nginx_pid: "/var/run/nginx.pid"
 nginx_bin: "/usr/sbin/nginx"
 
 # Latest source breaks, so we're stuck here at the moment
-nginx_source_version: "1.14.0"
+nginx_source_version: "1.15.5"
 # source
 nginx_source_url: "http://nginx.org/download/nginx-{{nginx_source_version}}.tar.gz"
 nginx_source_prefix: "/usr/local/nginx/nginx-{{nginx_source_version}}"
@@ -83,7 +83,7 @@ nginx_realip_addresses: ["127.0.0.1"]
 nginx_realip_real_ip_recursive: "off"
 
 # naxsi_module
-nginx_naxsi_version: 0.55.3
+nginx_naxsi_version: 0.56
 nginx_naxsi_url: "https://github.com/nbs-system/naxsi/archive/{{nginx_naxsi_version}}.tar.gz"
 
 # ngx_pagespeed_module
@@ -92,4 +92,4 @@ nginx_ngx_pagespeed_source: "https://github.com/pagespeed/ngx_pagespeed/archive/
 nginx_ngx_pagespeed_psol_source: "https://dl.google.com/dl/page-speed/psol/{{nginx_ngx_pagespeed_version}}/stable/.tar.gz"
 
 # OpenSSL
-openssl_version: "1.1.0h"
+openssl_version: "1.1.1"
