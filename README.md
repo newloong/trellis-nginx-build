@@ -13,7 +13,7 @@ In your _requirements.yml_
     ## Build Nginx from source
     - name: trellis-nginx-build
       src: newloong.trellis-nginx-build
-      version: 1.0.6
+      version: 1.0.7
 
 Run `ansible-galaxy install -r requirements.yml` to install the new role.
 
