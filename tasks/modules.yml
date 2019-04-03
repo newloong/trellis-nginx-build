@@ -31,5 +31,3 @@
 - include: modules/ngx_pagespeed.yml
   when: nginx_modules.ngx_pagespeed is defined
 
-- include: modules/http_geoip_module.yml
-  when: nginx_modules.http_geoip_module is defined
